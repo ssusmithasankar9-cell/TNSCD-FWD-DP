@@ -1,0 +1,97 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+  text-align: center;
+  color: #333;
+}
+
+header {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+section {
+  margin: 40px auto;
+  width: 85%;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.profile-pic img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+h2 {
+  color: #6a0572;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.bar {
+  background: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 15px;
+}
+
+.fill {
+  background: #9d4edd;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #6a0572;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #9d4edd;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255,255,255,0.3);
+}
+
+.socials a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #6a0572;
+}
